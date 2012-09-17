@@ -1,24 +1,32 @@
 # Sampler
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'sampler'
+  gem 'sampler'
 
 And then execute:
 
-    $ bundle
+  $ bundle
 
 Or install it yourself as:
 
-    $ gem install sampler
+  $ gem install sampler
+  
+To generate a default samples.rb file and an initializer, run:
+
+  $  rails generate sampler:install
+
+This will create db/samples.rb and config/initializers/sampler.rb
 
 ## Usage
 
-TODO: Write usage instructions here
+WARNING: The following command will drop your current database and
+run rake db:seed before running rake db:sample. Only run this command
+if you're sure there's nothing in your database you want to keep.
+
+  $ bundle exec rake db:sample
 
 ## Contributing
 

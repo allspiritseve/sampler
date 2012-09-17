@@ -1,5 +1,10 @@
-require "sampler/version"
+require 'sampler/version'
+require 'sampler/railtie' if defined?(Rails)
 
 module Sampler
-  # Your code goes here...
+  mattr_accessor :environments
+  @@environments = %w(development)
+  def self.config
+    yield self
+  end
 end
