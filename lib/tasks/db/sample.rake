@@ -7,7 +7,7 @@ namespace :db do
 
   task :ensure_environment do
     if !Sampler.environments.include? Rails.env
-      puts "This task can only run in a "#{Sampler.environments} environment"
+      puts "This task can only run in the following environments: #{Sampler.environments.to_sentence}"
       exit
     end
   end
