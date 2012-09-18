@@ -23,7 +23,7 @@ This will create db/samples.rb and config/initializers/sampler.rb
 ## Usage
 
 WARNING: The following command will drop your current database and
-run rake db:seed before running rake db:sample. Only run this command
+run rake db:setup before running rake db:sample. Only run this command
 if you're sure there's nothing in your database you want to keep.
 
     $ bundle exec rake db:sample
