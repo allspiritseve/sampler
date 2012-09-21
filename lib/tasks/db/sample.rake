@@ -1,5 +1,5 @@
 namespace :db do
-  task :sample => ['db:ensure_environment','environment','db:drop','db:setup'] do
+  task :sample => ['environment','db:ensure_environment','db:drop','db:setup'] do
     'db/samples.rb'.tap do |sample_file|
       load(sample_file) if File.exists?(sample_file)
     end
