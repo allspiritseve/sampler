@@ -8,8 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Sampler::VERSION
   gem.authors       = ["Cory Kaufman-Schofield"]
   gem.email         = ["cory@corykaufman.com"]
-  gem.description   = %q{Set up your app with sample data using rake db:sample}
-  gem.summary       = %q{Set up your app with sample data}
+  gem.summary       = %q{No more foobar! Run your app locally with *real* sample data}
   gem.homepage      = "http://github.com/allspiritseve/sampler"
 
   gem.files         = `git ls-files`.split($/)

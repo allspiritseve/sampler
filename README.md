@@ -1,5 +1,7 @@
 # Sampler
 
+Local development is a lot more fun when your app has some real data to work with. Sampler provides a convention similar to seeds.rb where you set up sample data in db/samples.rb and then run it whenever you want a fresh, pristine set of data to work with.
+
 ## Installation
 
 Add this line to your application's Gemfile:
