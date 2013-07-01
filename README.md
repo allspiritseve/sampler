@@ -15,7 +15,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install sampler
-  
+
 To generate a default samples.rb file and an initializer, run:
 
     $  rails generate sampler:install
@@ -39,7 +39,8 @@ if you're sure there's nothing in your database you want to keep.
 ## Contributing
 
 1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Create a feature branch (git checkout -b my-new-feature)
+1. Stage changes (git add -p)
+1. Commit your changes (git commit)
+1. Push to Github (git push -u origin my-new-feature)
+1. Create new Pull Request
