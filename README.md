@@ -44,3 +44,7 @@ if you're sure there's nothing in your database you want to keep.
 1. Commit your changes (git commit)
 1. Push to Github (git push -u origin my-new-feature)
 1. Create new Pull Request
+
+## RELEASE NOTES
+
+0.0.5 Added 'db:drop' as a prerequisite to 'db:sample'
