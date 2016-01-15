@@ -1,4 +1,4 @@
-Copyright (c) 2012-2013 Cory Kaufman-Schofield
+Copyright (c) 2012-2016 Cory Kaufman-Schofield
 
 MIT License
 
